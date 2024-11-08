@@ -1,0 +1,97 @@
+/* General Responsive Styles */
+.res1 {
+  width: 100%;
+  height: auto;
+}
+
+.fom1 {
+  position: absolute;
+  top: 234px;
+  left: 0;
+  background-color: white;
+  border-radius: 10px;
+  width: calc(100% - 20px);
+  margin: 10px;
+}
+
+/* Small screens (max-width: 576px) */
+@media screen and (max-width: 576px) {
+  .sub4 {
+      margin-left: 20px;
+  }
+
+  .oa, .ca, .comat2, .imgfix1, .imgfix2, .imgfix3, .imgfix4, .imgfix5, .imgfix6, .crd1, .crd2, .crd3, .crd4, .crd5, .crd6 {
+      position: static;
+      margin: 10px;
+      width: 100%;
+      text-align: center;
+  }
+
+  .imgfix1, .imgfix2, .imgfix3, .imgfix4, .imgfix5, .imgfix6 {
+      width: 150px;
+      height: 150px;
+      margin: 10px auto;
+  }
+
+  .offer8 .part-2, .bus, .bus5 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+  }
+
+  .popular3, .popular5, .popular6, .popular7, .popular8, .popular9, .popular11, .bloog4, .bloog5, .bloog6, .blog5, .blog6, .blog7 {
+      position: static;
+      margin: 10px;
+      width: 100%;
+      text-align: center;
+  }
+
+  .owl-carousel .owl-item img {
+      display: block;
+      width: 90%;
+      margin: 0 auto;
+  }
+
+  .down5, .add3, .sub3, .color6, .down, .bus8, .bus9 {
+      margin: 10px;
+  }
+}
+
+/* Medium screens (min-width: 768px and max-width: 1200px) */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .res1 {
+      height: 500px;
+  }
+
+  .sub4 {
+      margin-left: 40px;
+      margin-top: 24px;
+  }
+
+  .fom1 {
+      top: 478px;
+      left: 10%;
+      width: 80%;
+  }
+
+  .offer8 .part-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+  }
+
+  .popular3, .popular5, .popular6, .popular7, .popular8, .popular9, .popular11 {
+      position: static;
+      margin: 15px;
+  }
+
+  .imgfix1, .imgfix2, .imgfix3, .imgfix4, .imgfix5, .imgfix6 {
+      width: 140px;
+      height: 140px;
+      margin: 10px;
+  }
+
+  .blog5, .blog6, .blog7 {
+      margin: 15px;
+  }
+}
